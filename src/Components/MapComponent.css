@@ -1,0 +1,19 @@
+.coordinates-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1000; /* Asegurarse de que está sobre el mapa */
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #map-container {
+    height: 100%;
+    width: 100%;
+  }
