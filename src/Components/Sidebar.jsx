@@ -24,15 +24,6 @@ const Sidebar = ({ onOpenModal }) => {
     >
       <List>
         <ListItem>
-          <TextField label="Viento" variant="outlined" fullWidth />
-        </ListItem>
-        <ListItem>
-          <TextField label="Marea" variant="outlined" fullWidth />
-        </ListItem>
-        <ListItem>
-          <TextField label="Etc" variant="outlined" fullWidth />
-        </ListItem>
-        <ListItem>
           <Button onClick={onOpenModal} variant="contained" color="primary" fullWidth>
             Crear incidente
           </Button>
